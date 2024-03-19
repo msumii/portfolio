@@ -1,0 +1,321 @@
+@media (max-width: 768px) {
+    #nav #nav-list {
+        display: none;
+    }
+
+    #nav #mobile-menu-icon {
+        display: block;
+    }
+
+    .mobile-menu {
+        width: 100%;
+        height: 365px;
+        position: fixed;
+        left: 0;
+        background-color: #111111;
+    }
+
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .mobile-menu ul li {
+        margin-bottom: 25px;
+    }
+
+    .mobile-menu ul li a{
+        color: #959595;
+        font-size: 3.2rem;
+        font-weight: 600;
+    }
+
+    .open {
+        display: block;
+    }
+    
+    #s-home {
+        padding: 0 40px;
+    }
+
+    #home {
+        padding: 250px 0 200px 0;
+    }
+
+    #home-container-text #home-name {
+        margin-left: 5px;
+        font-size: 2rem;
+    }
+
+    #home-container-text #home-profession {
+        font-size: 8rem;
+        line-height: 65px;
+    }
+
+    #home-container-text #home-btn-description {
+        margin: 10px 0 0 5px;
+    }
+
+    #home-btn-description #home-buttons a img {
+        margin-right: 25px;
+        height: 44px;
+        
+    }
+
+    #home-container-text #home-btn-description #home-description {
+        width: 50%;
+        font-size: 1.6rem;
+    }
+
+    #s-about {
+        padding: 0 24px;
+    }
+
+    #about {
+        flex-direction: column;
+        padding-bottom: 200px;
+        text-align: center;
+    }
+
+    #about #about-perfil {
+        width: 400px;
+        margin-bottom: 25px;
+    }
+
+    #about #about-container-text {
+        margin-left: 0;
+    }
+
+    #about-container-text #about-me {
+        font-size: 2.4rem;
+    }
+
+    #about #about-container-text #about-name {
+        font-size: 3.8rem;
+        margin: 5px 0 10px;
+    }
+
+    #about #about-container-text #about-profession {
+        margin-bottom: 20px;
+    }
+
+    #about #about-container-text #about-description {
+        font-size: 1.8rem;
+        padding: 0 50px;
+        margin-bottom: 20px;
+    }
+
+    #about #about-container-text #about-buttons a img {
+        height: 52px;
+    }
+
+    #s-projects {
+        padding: 0 24px;
+    }
+
+    #projects h2 {
+        font-size: 3.2rem;
+        margin: 35px 0 50px 0;
+    }
+
+    #projects #projects-container .project {
+        width: 100%;
+    }
+
+    #s-skills {
+        padding: 0 24px;
+    }
+
+    #skills {
+        padding: 100px 0;
+        flex-direction: column;
+    }
+
+    #skill-container-text #skill-title {
+        font-size: 3.2rem;
+        text-align: center;
+    }
+
+    #skill-container-text #skill-description {
+        display: none;
+    }
+
+    #skills-container {
+        gap: 25px 0;
+        row-gap: 25px;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    #skills-container .skill {
+        width: 48%;
+    }
+
+    #footer {
+        padding: 0 24px;
+    }
+
+    #contact #contact-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #contact #contact-container #footer-logo h2 {
+        font-size: 3.2rem;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    #contact #contact-container #footer-logo p {
+        font-size: 2rem;
+    }
+
+    #contact #contact-container #footer-useful-links h2,
+    #contact #contact-container #footer-social-media h2,
+    #contact #contact-container #footer-email-contact h2 {
+        font-size: 2.8rem;
+        margin: 45px 0 25px 0;
+        margin-bottom: 20px;
+    }
+
+    #contact #contact-container #footer-useful-links a p,
+    #contact #contact-container #footer-social-media a p {
+        font-size: 2rem;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    #contact #contact-container #footer-email-contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #contact #contact-container #footer-email-contact h2 {
+        margin-bottom: 35px;
+    }
+
+    #footer-email-contact #email-contact-btn {
+        width: 366px;
+        max-width: 366px;
+        height: 60px;
+    }
+
+    #footer-email-contact #email-contact-btn p {
+        font-size: 1.8rem;
+    }
+
+    #footer-container-copyright {
+        margin-top: 50px;
+        justify-content: center;
+    }
+
+    #footer-container-copyright #powered-by {
+        display: none;
+    }
+}
+
+@media (max-width: 425px) {
+    #s-home,
+    #s-about,
+    #s-projects,
+    #s-skills,
+    #footer {
+        padding: 0 20px;
+    }
+
+    .mobile-menu ul li a {
+        font-size: 2.8rem;
+    }
+
+    #home #home-container-text {
+        text-align: center;
+    }
+
+    #home #home-container-text #home-name {
+        margin: 0;
+    }
+
+    #home #home-container-text #home-profession {
+        font-size: 4.4rem;
+        line-height: 34px;
+        width: 100%;
+    }
+
+    #home #home-container-text #home-btn-description {
+        flex-direction: column-reverse;
+        margin: 10px 0 0;
+    }
+
+    #home-container-text #home-btn-description #home-description {
+        width: 100%;
+    }
+    
+    #home-container-text #home-btn-description #home-buttons a {
+        margin-right: 30px;
+    }
+
+    #home-container-text #home-btn-description #home-buttons a:last-child {
+        margin: 0;
+    }
+
+    #home-container-text #home-btn-description #home-buttons a img {
+        height: 42px;
+        margin: 0;
+        margin-top: 20px;
+    }
+
+    #about #about-perfil {
+        width: 300px;
+        margin-bottom: 40px;
+    }
+
+    #about #about-container-text #about-me {
+        font-size: 2rem;
+    }
+
+    #about #about-container-text #about-name {
+        font-size: 3.2rem;
+        margin-bottom: 15px;
+    }
+
+    #about #about-container-text #about-profession {
+        font-size: 1.8rem;
+    }
+
+    #about #about-container-text #about-description {
+        padding: 0 20px;
+        font-size: 1.6rem;
+        line-height: 26px;
+        width: 100%;
+    }
+
+    #about #about-container-text #about-buttons a img {
+        height: 42px;
+    }
+
+    #skills-container {
+        row-gap: 20px;
+    }
+
+    #contact #contact-container #footer-email-contact h2 {
+        font-size: 2rem;
+    }
+
+    #footer-email-contact #email-contact-btn{
+        max-width: 324px;
+        width: 100%;
+        height: 60px;
+    }
+
+    #footer-email-contact #email-contact-btn p {
+        font-size: 1.4rem;
+    }
+
+    #footer-container-copyright #copyright p{
+        font-size: 1rem;
+    }
+}

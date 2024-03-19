@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="name" content="Vithor Rocha">
+    <meta name="description" content="Meu nome é Vithor, tenho 19 anos e sou um desenvolver frontend em início de carreira">
+    <meta name="keywords" content="sites, web, frontend, msumi, vithor rocha, programador, website, freela, developer, desenvolvimento, front-end">
+    <meta name="copyright" content="Vithor Rocha 2024">
+    <meta http-equiv="content-language" content="pt-br">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Msumi || Portfólio</title>
+
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/responsive.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="src/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="src/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="src/images/favicon-16x16.png">   
+</head>
+<body>
+    <header id="header">
+        <div class="grid-layout">
+            <nav id="nav">
+                <a href="#"><h2 id="header-logo">Msu<span>m</span>i</h2></a>
+
+                <ul id="nav-list">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#projects">Projetos</a></li>
+                    <li><a href="#skills">Habilidades</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+
+                <div id="mobile-menu-icon">
+                    <button onclick="menuShow()"><img class="icon" src="src/images/menu.svg" alt=""></button>
+                </div>
+
+            </nav>
+        </div>
+        <div class="mobile-menu">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#contact">Contato</a></li> 
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <section id="s-home">
+            <div class="grid-layout">
+                <div id="home">
+                    <div id="home-container-text">
+                         <h2 id="home-name">Oi, eu sou o Msumi</h2>
+                         <h1 id="home-profession">Front <span>end</span> Develo<span>per</span></h1>
+                         <div id="home-btn-description">
+                             <div id="home-buttons">
+                                <a href="https://www.linkedin.com/in/vithorrocha/" target="_blank"><img src="src/images/LinkedIn.svg" alt="LinkedIn"></a>
+                                <a href="https://github.com/msumii" target="_blank"><img src="src/images/GitHub.svg" alt="GitHub"></a>
+                                <a href="#" target="_blank"><img src="src/images/Curriculo.svg" alt="Curriculo"></a>
+                             </div>
+                             <p id="home-description">Tenho 19 anos, sou desenvolvedor frontend em <br> início de carreira</p>
+                         </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="s-about">
+            <div class="grid-layout">
+                <div id="about">
+                    <img id="about-perfil" src="src/images/Perfil.png" alt="Perfil">
+                    <div id="about-container-text">
+                        <h3 id="about-me">SOBRE MIM</h3>
+                        <h2 id="about-name">Vithor Rocha</h2>
+                        <h3 id="about-profession">Frontend Developer</h3>
+                        <p id="about-description">Olá, sou Vithor Rocha, conhecido como "Msumi". Sou um desenvolvedor frontend em início de carreira, dedicado a aprender e crescer constantemente. Estou focado em entregar produtos de alta qualidade, com ênfase em desempenho e compatibilidade. Estou animado para contribuir e aprender mais neste campo em constante evolução.</p>
+                        <div id="about-buttons">
+                            <a href="https://www.linkedin.com/in/vithorrocha/" target="_blank"><img src="src/images/LinkedIn.svg" alt="LinkedIn"></a>
+                            <a href="https://github.com/msumii" target="_blank"><img src="src/images/GitHub.svg" alt="GitHub"></a>
+                            <a href="#" target="_blank"><img src="src/images/Curriculo.svg" alt="Curriculo"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="s-projects">
+            <div class="grid-layout">
+                <div id="projects">
+                    <h2>PROJETOS</h2>
+                    <div id="projects-container">
+                        <div class="project">
+                            <h3 id="project-title">Code Café</h3>
+                            <p id="project-description">Landing page de um café, feito com HTML e CSS</p>
+                            <a href="https://msumii.github.io/projeto-landing-page-cafe/" target="_blank" id="project-link">Visualizar projeto</a>
+                        </div>
+                        <div class="project">
+                            <h3 id="project-title">Blog Codelândia</h3>
+                            <p id="project-description">Blog do servidor Codelândia, feito com HTML, CSS e JS</p>
+                            <a href="https://desafio01-blog-codelandia.vercel.app" target="_blank" id="project-link">Visualizar projeto</a>
+                        </div>
+                        <div class="project">
+                            <h3 id="project-title">Pagina de Receita</h3>
+                            <p id="project-description">Desafio Recipe Page do Frontend Mentor, feito com HTML e CSS</p>
+                            <a href="https://desafio-recipe-page-frontend-mentor-hgdngkxbl-msumiis-projects.vercel.app" target="_blank" id="project-link">Visualizar projeto</a>
+                        </div>
+                        <div class="project">
+                            <h3 id="project-title">Social Links Profile</h3>
+                            <p id="project-description">Desafio Social Links do Frontend Mentor, feito em HTML e CSS</p>
+                            <a href="https://msumii.github.io/desafio-social-links-profile-frontend-mentor/" target="_blank" id="project-link">Visualizar projeto</a>
+                        </div>
+                        <div class="project">
+                            <h3 id="project-title">Em Breve...</h3>
+                            <p id="project-description">Este projeto está em desenvolvimento, por favor aguarde</p>
+                        </div>
+                        <div class="project">
+                            <h3 id="project-title">Em Breve...</h3>
+                            <p id="project-description">Este projeto está em desenvolvimento, por favor aguarde</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="s-skills">
+            <div class="grid-layout">
+                <div id="skills">
+                    <div id="skill-container-text">
+                        <h2 id="skill-title">HABILIDADES</h2>
+                        <p id="skill-description">Consigo criar uma página intuitiva, simples e objetiva com poucas tecnologias e de fácil navegação.</p>
+                    </div>
+                    <div id="skills-container">
+                        <div class="skill">
+                            <img src="src/images/html.svg" alt="HTML5">
+                        </div>
+                        <div class="skill">
+                            <img src="src/images/css.svg" alt="CSS3">
+                        </div>
+                        <div class="skill">
+                            <img src="src/images/javascript.svg" alt="JavaScript">
+                        </div>
+                        <div class="skill">
+                            <img src="src/images/figma.svg" alt="Figma">
+                        </div>
+                        <div class="skill">
+                            <img src="src/images/git.svg" alt="Git">
+                        </div>
+                        <div class="skill">
+                            <img src="src/images/three-dots.svg" alt="Habilida em Desenvolvimento">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer id="footer">
+            <div class="grid-layout">
+                <div id="contact">
+                    <div id="contact-container">
+                        <div id="footer-logo">
+                            <h2>Msu<span>m</span>i</h2>
+                            <p>Frontend Developer</p>
+                        </div>
+                        <div id="footer-useful-links">
+                            <h2>Useful Links</h2>
+                            <a href="#home">
+                                <p>Home</p>
+                            </a><a href="#about">
+                                <p>Sobre</p>
+                            </a><a href="#projects">
+                                <p>Projetos</p>
+                            </a><a href="#skills">
+                                <p>Habilidades</p>
+                            </a><a href="#contact">
+                                <p>Contato</p>
+                            </a>
+                        </div>
+                        <div id="footer-social-media">
+                            <h2>Social Media</h2>
+                            <a href="https://www.instagram.com/msumi.v/" target="_blank"><p>Instagram</p></a>
+                            <a href="https://www.linkedin.com/in/vithorrocha/" target="_blank"><p>LinkedIn</p></a>
+                            <a href="https://github.com/msumii" target="_blank"><p>GitHub</p></a>
+                            <a href="https://wa.me/5511932422360" target="_blank"><p>WhatsApp</p></a>
+                        </div>
+                        <div id="footer-email-contact">
+                            <h2>Entre em contato via e-mail</h2>
+                            <a id="email-contact-btn" href="mailto:vithorrocha066@gmail.com" target="_blank">
+                                <p>Clique para enviar um e-mail</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div id="footer-container-copyright">
+                        <div id="copyright">
+                            <p>Copyright © 2024 <a href="#"><span>msumi.com.</span></a> Todos os direitos reservados.</p>
+                        </div>
+                        <div id="powered-by">
+                            <p>Powered by</p>
+                            <img src="src/images/code.svg" alt="Powered By Img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <script src="src/scripts/script.js"></script>
+</body>
+</html>
